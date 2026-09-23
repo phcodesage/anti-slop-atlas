@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Anti-Slop Atlas</title>
+  <desc id="d">A curated map of skills and MCP servers that keep coding agents from shipping AI-slop frontends.</desc>
+  <rect width="1200" height="360" fill="#F3EFE6"/>
+  <!-- map grid -->
+  <g stroke="#1B1A17" stroke-opacity="0.08" stroke-width="1">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M0 300H1200"/>
+    <path d="M100 0V360M200 0V360M300 0V360M400 0V360M500 0V360M600 0V360M700 0V360M800 0V360M900 0V360M1000 0V360M1100 0V360"/>
+  </g>
+  <!-- the slop, crossed out -->
+  <g transform="translate(860 70)">
+    <defs>
+      <linearGradient id="slop" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#8B5CF6"/>
+        <stop offset="1" stop-color="#3B82F6"/>
+      </linearGradient>
+    </defs>
+    <rect width="260" height="170" rx="22" fill="url(#slop)" opacity="0.55"/>
+    <rect x="24" y="100" width="64" height="46" rx="10" fill="#fff" opacity="0.5"/>
+    <rect x="98" y="100" width="64" height="46" rx="10" fill="#fff" opacity="0.5"/>
+    <rect x="172" y="100" width="64" height="46" rx="10" fill="#fff" opacity="0.5"/>
+    <rect x="60" y="34" width="140" height="14" rx="7" fill="#fff" opacity="0.7"/>
+    <rect x="85" y="58" width="90" height="10" rx="5" fill="#fff" opacity="0.5"/>
+    <path d="M-14 190L274 -20" stroke="#D2361F" stroke-width="10" stroke-linecap="square"/>
+  </g>
+  <text x="80" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="4" fill="#D2361F">N° 001 — FIELD GUIDE FOR CODING AGENTS</text>
+  <text x="76" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="#1B1A17" letter-spacing="-2">Anti-Slop</text>
+  <text x="80" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-style="italic" fill="#1B1A17">Atlas</text>
+  <text x="252" y="268" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#1B1A17" fill-opacity="0.7">skills · MCP servers · design context</text>
+  <rect x="80" y="296" width="120" height="6" fill="#D2361F"/>
+</svg>
