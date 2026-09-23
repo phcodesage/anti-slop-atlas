@@ -313,8 +313,8 @@ Let the agent build from a real design, or draw one first, instead of guessing.
 </tr>
 <tr>
 <td align="center" width="64"><img src="https://www.google.com/s2/favicons?domain=paper.design&sz=64" width="32" height="32" alt="Paper MCP logo"></td>
-<td><a href="https://paper.design/docs/mcp"><b>Paper MCP</b></a><br><sub>A design canvas built on real HTML and CSS. Agents create frames, set styles, take screenshots and read JSX or Tailwind for any node.</sub></td>
-<td align="center" width="120"><sub><b>Hosted</b></sub></td>
+<td><a href="https://paper.design/docs/mcp"><b>Paper MCP</b></a><br><sub>A design canvas built on real HTML and CSS. Agents create frames, set styles, take screenshots and read JSX or Tailwind for any node. Runs locally through Paper Desktop.</sub></td>
+<td align="center" width="120"><sub><b>Desktop app</b></sub></td>
 </tr>
 <tr>
 <td align="center" width="64"><img src="https://www.google.com/s2/favicons?domain=pen.dev&sz=64" width="32" height="32" alt="pen.dev (Pencil) MCP logo"></td>
@@ -324,7 +324,7 @@ Let the agent build from a real design, or draw one first, instead of guessing.
 <tr>
 <td align="center" width="64"><img src="https://www.google.com/s2/favicons?domain=stitch.withgoogle.com&sz=64" width="32" height="32" alt="Google Stitch MCP logo"></td>
 <td><a href="https://stitch.withgoogle.com/docs/mcp/setup/"><b>Google Stitch MCP</b></a><br><sub>Generates UI designs from text and images, then brings screens into your repo. Community CLI: <a href="https://github.com/davideast/stitch-mcp">davideast/stitch-mcp</a>.</sub></td>
-<td align="center" width="120"><sub><b>Hosted</b></sub></td>
+<td align="center" width="120"><sub><b>Official</b></sub></td>
 </tr>
 <tr>
 <td align="center" width="64"><img src="https://www.google.com/s2/favicons?domain=framer.com&sz=64" width="32" height="32" alt="Framer external agents logo"></td>
